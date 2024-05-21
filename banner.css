@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  width: 20%;
+  border-radius: 5px;
+  transition: 1s all;
+  box-shadow: 1px 1px 5px black;
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px black;
+}
+.image img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+}
+.title h1 {
+  font-size: 23px;
+}
+.des {
+  text-align: center;
+}
+.des p span {
+  text-decoration: line-through;
+  color: rgb(115, 115, 115);
+}
+.des a button {
+  width: 100px;
+  border-radius: 5px;
+  padding: 7px;
+  color: black;
+  font-weight: 900;
+  background-color: white;
+  text-transform: capitalize;
+  transition: 1s all;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.des a button:hover {
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
